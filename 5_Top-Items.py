@@ -12,7 +12,7 @@ for elem in soup.select('div.thumbnail'):
     rating = elem.select('div.ratings')[0].text
     info = {
         "title": title.strip(),
-        "review": rating.strip()
+        "rating": rating.strip()
     }
 
     top_items.append(info)
