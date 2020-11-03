@@ -1,0 +1,10 @@
+**** import requests
+need this to use requests.get()
+**** from bs4 import BeautifulSoup
+need this to use BeautifulSoup()
+**** page = requests.get("https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/")
+Make a request to a site
+**** soup = BeautifulSoup(page.content, 'html.parser')
+we use selectors on soup variable
+**** soup.select
+a CSS selector inside BeautifulSoup
